@@ -1,0 +1,301 @@
+/*
+	Theme Name: Toms Tema
+	Theme URI: http://tomgeorgii.se
+	Description: Toms tema för Bulldozer
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:700,400,300);
+
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+html {
+	font-size:62.5%;
+    margin-top:0 !important;
+}
+body {
+	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#444;
+    margin:0 !important;
+}
+
+h1{
+font-size:450% !important;
+color:#fff;
+color: rgb(97, 97, 97);
+text-shadow: rgb(224, 224, 224) 1px 1px 0px;
+margin-top:0;
+}
+
+article h1{
+margin:0 0 20px 0;
+}
+
+article h1 a{
+color:#FF4543;
+text-shadow:none;
+}
+
+article p{
+margin-left:2%;
+}
+
+h2 {
+font-size:350%;
+}
+
+h2 a{
+color:#FF4543;
+}
+
+h3{
+font-size:250%;
+}
+
+.clear:before,
+.clear:after {
+    content:' ';
+    display:table;
+}
+
+.clear:after {
+    clear:both;
+}
+.clear {
+    *zoom:1;
+}
+img {
+	max-width:100%;
+	vertical-align:bottom;
+}
+a {
+    color:#43ff7d;
+	opacity:1;
+	text-decoration:none;
+    font-weight:700;
+}
+a:hover {
+	opacity:.5;
+}
+a:focus {
+	outline:0;
+}
+a:hover,
+a:active {
+	outline:0;
+}
+input:focus {
+	outline:0;
+	border:1px solid #04A4CC;
+}
+
+
+
+.wrapper {
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+.header {
+width:100%;
+height:auto;
+background-image:url(img/headers/default.png);
+background-attachment: fixed;
+}
+
+
+.logo {
+max-width:1200px;
+margin: 0 auto;
+}
+
+.nav{
+max-width:1200px;
+margin: 0 auto;
+}
+
+.nav ul{
+list-style:none;
+}
+
+.nav ul li{
+display:inline;
+padding: 18px 10px 5px;
+}
+.nav a {
+font-family:Oswald;
+font-weight:700;
+font-size:200%;
+color:#FF4543;
+padding-top:0px;
+}
+
+main{
+width:100%;
+background-color:#ccc;
+padding:20px 0;
+}
+
+main section {
+margin: 0 auto;
+padding: 15px;
+max-width:1200px;
+}
+
+main article{
+padding:10px 3% 20px 3%;
+background-color:#fff;
+-webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+-moz-box-shadow:    0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+box-shadow:         0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+margin-left:5%;
+max-width:800px;
+margin-bottom:20px;
+}
+
+.wp-post-image{
+float:right;
+}
+
+.comments{
+padding:10px 2%;
+margin-top:20px;
+border-top: solid thick #FF4543;
+}
+
+.comments ul{
+list-style:none;
+}
+
+.comment-meta{
+    margin-top:5px;
+}
+
+.comment-author img{
+display:block;
+margin-bottom:10px;
+}
+
+.comment-form-comment label{
+display:block;
+margin-bottom:5px;
+}
+
+.footer {
+text-align:center;
+margin:30px auto;
+}
+
+@media only screen and (max-width:480px) {
+    
+main article{
+    margin-left:1%;
+    }  
+}
+
+@media only screen and (max-width:1024px) {  
+    main section {
+        margin:0 1%;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
+
+
+::selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-webkit-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-moz-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+
+
+.alignnone {
+	margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-caption {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	max-width:96%;
+	padding:5px 3px 10px;
+	text-align:center;
+}
+.wp-caption.alignnone {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	max-width:98.5%;
+	padding:0;
+	width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size:11px;
+	line-height:17px;
+	margin:0;
+	padding:0 4px 5px;
+}
+.sticky {
+
+}
+.bypostauthor {
+
+}
